@@ -11,7 +11,6 @@
 * [Technologies Used](#technologies-used)
 * [Prerequisites](#prerequisites)
 * [Installation & Usage](#installation--usage)
-* [Contributing](#contributing)
 * [Contact](#contact)
 
 ---
