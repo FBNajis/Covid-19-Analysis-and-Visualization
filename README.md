@@ -26,17 +26,24 @@ This project provides an in-depth analysis and visualization of COVID-19 data, w
 
 ## Key Features
 
-* **Data Cleaning and Preparation:** (Implicit, as it's a standard step for analysis) Processing raw data for analysis.
-* **Exploratory Data Analysis (EDA):** Investigating the dataset to uncover patterns, anomalies, and insights regarding COVID-19 mortality.
-* **Cause of Death Analysis:** Identifying and visualizing the most prevalent conditions and condition groups leading to death in COVID-19 patients.
-* **Interactive Visualizations:** Leveraging libraries like Plotly for dynamic charts (if applicable beyond setup).
-* **Insightful Word Clouds:** Generating word clouds to intuitively display the frequency and prominence of specific medical conditions and groups.
+* **Data Cleaning and Preparation:** Processing and preparing the raw COVID-19 data from multiple sources for accurate analysis.
+* **Exploratory Data Analysis (EDA):** Investigating the dataset to uncover global and regional patterns, anomalies, and insights regarding COVID-19 infection rates, mortality, testing efforts, and recovery trends.
+* **Geographical Trend Analysis:** Visualizing the pandemic's spread, recovery patterns (e.g., "Recover World Map"), and testing distribution across continents and countries.
+* **Comparative Regional Analysis:** Identifying and comparing key COVID-19 metrics, such as top infected countries/regions (e.g., "Top Infected") and testing rates by continent.
+* **Mortality and Condition Analysis:** In-depth analysis of COVID-19 related deaths, including the identification of prevalent contributing conditions and condition groups, utilizing visualizations like word clouds (e.g., "Word Cloud Cause of Death") to highlight key factors.
+* **Comprehensive Data Visualization:** Employing a variety of static and interactive visualization techniques to clearly present findings. This includes leveraging libraries like `matplotlib` for charts and graphs, `wordcloud` for textual data representation, and `plotly` for potentially interactive dashboards or figures.
 
 ---
 
 ## Dataset
 
-The analysis presented in this notebook is based on a dataset containing information related to COVID-19 cases. This includes (but may not be limited to) patient conditions, condition groups, and reported causes of death.
+The analysis in this notebook is based on a collection of three primary CSV files:
+
+1.  **`covid.csv`**: This file likely contains general COVID-19 case data, such as confirmed cases, active cases, testing numbers, and other relevant metrics, potentially categorized by country or region over time.
+2.  **`covid_grouped.csv`**: This file appears to present COVID-19 data that has been grouped or aggregated. This could mean data summarized by specific criteria like continent, country, or particular time periods, possibly including summary statistics or trends.
+3.  **`coviddeath.csv`**: This file specifically focuses on COVID-19 related mortality data. It most likely contains details regarding deaths, such as dates, locations, and potentially information about pre-existing patient conditions or condition groups that contributed to mortality, which is crucial for the cause-of-death analysis in this project.
+
+The combination of these three files allows for a comprehensive analysis of various aspects of the COVID-19 pandemic, from general case trends to specific details regarding mortality.
 
 ---
 
