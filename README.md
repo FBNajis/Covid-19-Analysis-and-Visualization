@@ -103,10 +103,13 @@ Before running the notebook, ensure you have the following installed:
 
 This project features several visualizations to illustrate the findings:
 
-* ![Test by Continent](testbycontinent.png)
-* ![Top Infected](topinfected.png)
-* ![Recover World Map](recovermap.png)
-* ![Word Cloud Cause of Death](wordcloudcod.png)
+![Test by Continent](testbycontinent.png)
+
+![Top Infected](topinfected.png)
+
+![Recover World Map](recovermap.png)
+
+![Word Cloud Cause of Death](wordcloudcod.png)
 
 ---
 
