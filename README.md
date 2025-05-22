@@ -5,13 +5,16 @@
 ---
 
 ## Table of Contents
-* [Project Overview](#project-overview)
-* [Key Features](#key-features)
-* [Dataset](#dataset)
-* [Technologies Used](#technologies-used)
-* [Prerequisites](#prerequisites)
-* [Installation & Usage](#installation--usage)
-* [Contact](#contact)
+- [COVID-19 Data Analysis and Visualization](#covid-19-data-analysis-and-visualization)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Key Features](#key-features)
+  - [Dataset](#dataset)
+  - [Technologies Used](#technologies-used)
+  - [Prerequisites](#prerequisites)
+  - [Installation \& Usage](#installation--usage)
+  - [Visualizations](#visualizations)
+  - [Contact](#contact)
 
 ---
 
@@ -93,6 +96,17 @@ Before running the notebook, ensure you have the following installed:
     jupyter lab
     ```
 5.  **Open and run the `Covid 19.ipynb` notebook.**
+
+---
+
+## Visualizations
+
+This project features several visualizations to illustrate the findings:
+
+* `![Test by Continent](testbycontinent.png)`
+* `![Top Infected](topinfected.png)`
+* `![Recover World Map](recovermap.png)`
+* `![Word Cloud Cause of Death](wordcloudcod.png)`
 
 ---
 
